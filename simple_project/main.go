@@ -20,6 +20,7 @@ func printNumbers() {
 }
 func printLetters() {
 	for char := 'a'; char <= 'e'; char++ {
+		fmt.Println("Consistency :(")
 		fmt.Printf("%c", char)
 		fmt.Println()
 		time.Sleep(time.Microsecond * 700)
